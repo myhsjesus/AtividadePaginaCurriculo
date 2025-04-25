@@ -1,45 +1,84 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #99199b;
-    color: #333;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #eedcf1;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    background-color: #a2bcd4;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-  }
-  
-  section {
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #0b62be;
-  }
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F5F0E6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family:'Playfair Display', serif;
+  color: #2A5C82;
+}
+
+header {
+  background-color: #2A5C82;
+  color: #D2C1A5;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  gap: 20px;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Lora', serif;
+}
+
+header img {
+  border-radius: 35%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end; 
+  list-style: none;
+  padding: 4px; 
+  background-color: #a2bcd4;
+  margin: 0; 
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  gap: 10px;
+}
+nav ul li a {
+  color: #1A3A5F;
+  background-color: #D2C1A5;
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  border: 1px solid #9BB0C1;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #0b62be; 
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 4px solid #E8DBC5;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1A3A5F;
+  color: white; 
+}
