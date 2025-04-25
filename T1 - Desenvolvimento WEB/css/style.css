@@ -60,7 +60,7 @@ nav ul li a {
   text-decoration: none;
   padding: 12px 24px;
   display: block;
-  border: 2px solid #1A3A5F;
+  border: 2px solid white;
   border-radius: 4px;
   font-weight: 500;
   transition: all 0.3s ease;
