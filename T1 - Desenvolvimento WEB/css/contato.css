@@ -1,8 +1,140 @@
-body {
-    background-color: rgb(87, 87, 87);
-    font-family: Arial, sans-serif;
-}
 
-a {
-    color: aliceblue;
-}
+:root {
+    --primary-blue: #2A5C82;
+    --light-beige: #F5F0E6;
+    --secondary-blue: #6B8CA6;
+    --medium-beige: #E8DBC5;
+    --light-blue: #D4E3F0;
+    --gray-blue: #9BB0C1;
+    --dark-beige: #D2C1A5;
+    --dark-blue: #1A3A5F;
+  }
+  
+  a {
+    color: #1A3A5F;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--secondary-blue);
+    color: var(--dark-blue);
+    padding: 20px;
+  }
+  
+
+  h1 {
+    text-align: center;
+    color: #1A3A5F;
+  }
+  
+  form {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  fieldset {
+    border: 2px solid var(--gray-blue);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: var(--dark-blue);
+  }
+  
+  label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid var(--gray-blue);
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* === Ícones dentro dos inputs === */
+  .input-icon {
+    position: relative;
+  }
+  
+  .input-icon i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: var(--primary-blue);
+  }
+  
+  .input-icon input {
+    padding-left: 35px;
+  }
+  
+  /* === Botão de envio === */
+  #botao_enviar {
+    background-color: var(--primary-blue);
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #botao_enviar:hover {
+    background-color: var(--secondary-blue);
+  }
+  
+  fieldset i {
+    color: var(--primary-blue);
+    margin-right: 8px;
+  }
+
+  .linha-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .linha-info i {
+    margin-right: 8px;
+    color: var(--primary-blue);
+    font-size: 16px;
+  }
+  
+  .linha-info span,
+  .linha-info label {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .grupo-opcoes {
+    margin-bottom: 15px;
+  }
+  
+  .grupo-opcoes label {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 13px;
+    font-weight: normal;
+  }
+  
