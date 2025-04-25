@@ -137,4 +137,36 @@
     font-size: 13px;
     font-weight: normal;
   }
+
+  .mensagem-sucesso {
+    background-color: #D4E3F0;
+    color: var(--dark-blue);
+    padding: 15px 20px;
+    border: 2px solid var(--primary-blue);
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .oculto {
+    display: none;
+  }
+
+  .form-footer {
+    display: flex;
+    flex-direction: column; /* um em cima do outro */
+    align-items: center; /* centralizado */
+    gap: 10px; /* espaço entre botão e mensagem */
+  }
+  
+
+  .grupo-opcoes label {
+    cursor: pointer;
+  }
   
