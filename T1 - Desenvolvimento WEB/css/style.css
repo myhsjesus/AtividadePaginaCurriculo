@@ -94,6 +94,7 @@ section {
 iframe{
   width: 560;
   height: 315;
+  border: none;
 }
 
 footer {
