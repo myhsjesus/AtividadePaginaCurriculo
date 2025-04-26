@@ -13,12 +13,12 @@ header {
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     gap: 20px;
     font-weight: bold;
     font-size: large;
     font-family: 'Lora', serif;
-  }
+}
 
 header h1 {
     margin: 0;
@@ -39,9 +39,9 @@ section {
 }
 
 h2 {
-    font-family:'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
     color: #2A5C82;
-  }
+}
 
 ul {
     list-style: none;
@@ -58,4 +58,10 @@ footer {
     padding: 10px;
     background-color: #1A3A5F;
     color: white;
+}
+
+iframe {
+    border: 0;
+    height: 200px;
+    width: 300px;
 }
